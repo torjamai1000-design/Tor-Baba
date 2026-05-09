@@ -35,7 +35,7 @@ module.exports = {
 
 		// ✅ Owners (যারা add/remove করতে পারবে)
 		const OWNER = [
-			"61573366160918",
+			"61589092769391",
 			""
 		];
 
@@ -97,7 +97,7 @@ module.exports = {
 			case "remove":
 			case "-r": {
 				if (!isOwner)
-					return message.reply("❌ | Only my boss farhan can remove operator.");
+					return message.reply("❌ | Only my boss fahim can remove operator.");
 
 				let uids = [];
 
